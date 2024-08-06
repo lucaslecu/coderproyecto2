@@ -1,0 +1,101 @@
+.pelicula{
+    display:flex;
+ flex-direction: column;
+padding: 10px;
+
+}
+
+/*tamaño de las imagenes*/
+.tamano{
+height: 100px;
+width: 100px;
+
+
+}
+/*contendor de todas las peliculas */
+.contenedor_pelis{
+    display: flex;
+   justify-content: center;
+
+}
+header{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_pelis{
+    font-size: 15px;
+}
+
+.carrito {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.producto h2 {
+    margin: 0;
+}
+
+.producto .precio {
+    margin-right: 10px;
+}
+
+.producto .eliminar {
+    cursor: pointer;
+    color: red;
+}
+/*centrar carrito***********************************/
+.carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carritoVacio{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/********************************/
+/* Clase para ocultar elementos */
+.oculto {display: none;
+   
+}
+
+.carritoTotal {
+    display: flex;
+
+
+}
+.btn {
+    background-color: #6200ea;
+    color: white;
+    border: none; 
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3700b3; 
+    transform: scale(1.05); 
+  }
