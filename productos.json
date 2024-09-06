@@ -1,0 +1,20 @@
+[
+    {
+        "titulo": "Intensamente",
+        "precio": 2000,
+        "img": "img/INTENSAMENTE.jpg",
+        "id": "peli001"
+    },
+    {
+        "titulo": "Deadpool",
+        "precio": 3000,
+        "img": "img/DEADPOOL.jpeg",
+        "id": "peli002"
+    },
+    {
+        "titulo": "Encanto",
+        "precio": 1000,
+        "img": "img/ENCANTO.jpeg",
+        "id": "peli003"
+    }
+]
